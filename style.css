@@ -4,22 +4,46 @@ body {
   height: 300vh;
   padding: 0;
   margin: 0;
-  background-color: rgb(230, 255, 0)
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 section {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   height: 100vh;
   width: auto;
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vmax;
+  letter-spacing: -0.05em;
+  line-height: 11vmax;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2vmax;
+}
+
+nav {
+  font-size: 1.25vmax;
 }
 
 #landing {
   color: rgb(84, 84, 255);
-  background: url('images/bg/selfie.png') bottom left no-repeat;
+  background: rgb(230, 255, 0) url('images/bg/selfie.png') bottom left no-repeat;
+}
+
+#landing .container {
 }
 
 #portfolio {
@@ -29,5 +53,6 @@ h1 {
 }
 
 #contact {
-  background-color: #fcf;
+  color: rgb(230, 255, 0);
+  background-color: rgb(84, 84, 255);
 }
