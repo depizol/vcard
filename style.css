@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  width: auto;
+}
+
+#landing {
+  background-color: #ccc;
+}
+
+#portfolio {
+  background-color: #cfc;
+}
+
+#contact {
+  background-color: #fcf;
+}
